@@ -57,7 +57,7 @@ $preference->payment_methods = array(
 $preference->notification_url = "https://hookb.in/Mq2oOJx8mnhDRWppRRgb";
 $preference->statement_descriptor = "Tienda e-commerce";
 $preference->external_reference = "contacto@grupo-abx.com";
-// $preference->integrator_id = "dev_24c65fb163bf11ea96500242ac130004";
+$preference->integrator_id = "dev_24c65fb163bf11ea96500242ac130004";
 $preference->save();
 
 header("Location: ".$preference->init_point);
