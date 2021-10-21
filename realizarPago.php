@@ -48,13 +48,12 @@ $preference->auto_return = "approved";
 // Excluir formas y tipos de pago
 $preference->payment_methods = array(
     "excluded_payment_types" => array(
-        array("id" => "amex"),
-        array("payment_type_id" => "atm")
+        array("id" => "amex","payment_type_id" => "atm")
     ),
     "installments" => 6 //Número de mensualidades
 );
 
-$preference->notification_url = "https://hookb.in/Mq2oOJx8mnhDRWppRRgb";
+$preference->notification_url = "https://hookb.in/b9ZMkO0N3OtKGq00GyD7";
 $preference->statement_descriptor = "Tienda e-commerce";
 $preference->external_reference = "contacto@grupo-abx.com";
 $preference->integrator_id = "dev_24c65fb163bf11ea96500242ac130004";
