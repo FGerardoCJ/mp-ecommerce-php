@@ -30,6 +30,14 @@ switch ($_GET['collection_status']) {
         $icon = '<i class="fas fa-times" style="font-size: 50px; color: #ff0000"></i>';
         $text = "Pago Rechazado";
         break;
+    case 'null':
+        $icon = '<i class="fas fa-times" style="font-size: 50px; color: #ff0000"></i>';
+        $text = "Algo paso durante el pago";
+        break;
+    default:
+        $icon = '<i class="fas fa-times" style="font-size: 50px; color: #ff0000"></i>';
+        $text = "Algo paso";
+        break;
 }
 switch ($_GET['payment_type']) {
     case 'credit_card':
@@ -46,6 +54,10 @@ switch ($_GET['payment_type']) {
         break;
     case 'digital_wallet':
         $type = "PayPal";
+        break;
+    case 'null':
+        $type = "Reitente de nuevo su compra";
+        $_GET['payment_id'] = "Reitente de nuevo su compra";
         break;
     default:
         $type = "Bitcoin, Dinheiro em conta, BBVA Bancomer, Banamex 0 Santander";

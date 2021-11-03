@@ -120,24 +120,29 @@
                                                 <p class="as-producttile-tilelink">
                                                     <span data-ase-truncate="2"><?php echo $_POST['title'] ?></span>
                                                 </p>
-
                                             </h3>
                                         </div>
-                                        <h3 >
+                                        <h3>
                                             <?php echo "$".$_POST['price'] ?>
                                         </h3>
                                         <h3 >
                                             <?php echo $_POST['unit'] ?>
                                         </h3>
                                     </div>
+
                                     <form class="" action="./realizarPago.php" method="post">
                                         <input type="hidden" name="img" value="<?php echo $_POST['img'] ?>">
                                         <input type="hidden" name="title" value="<?php echo $_POST['title'] ?>">
                                         <input type="hidden" name="price" value="<?php echo $_POST['price'] ?>">
                                         <input type="hidden" name="unit" value="<?php echo $_POST['unit'] ?>">
+                                        <input type="hidden" name="description" value="<?php echo $_POST['description'] ?>">
                                         <button type="submit" class="mercadopago-button" formmethod="post">Pagar la compra</button>
                                     </form>
                                 </div>
+                                <br>
+                                <p>
+                                    <?php echo $_POST['description'] ?>
+                                </p>
                             </div>
                         </div>
                     </div>

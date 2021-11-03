@@ -258,10 +258,11 @@
                                             </div>
                                         </div>
                                         <form action="./detail.php" method="get">
-                                            <input type="hidden" name="img" value="./assets/samsung-galaxy-s9-xxl.jpg">
+                                            <input type="hidden" name="img" value="https://fgerardocj-mp-commerce-php.herokuapp.com/assets/samsung-galaxy-s9-xxl.jpg">
                                             <input type="hidden" name="title" value="Samsung Galaxy S9">
                                             <input type="hidden" name="price" value="15000">
                                             <input type="hidden" name="unit" value="1">
+                                            <input type="hidden" name="description" value="Este dispositivo Samsung Galaxy S9 de 64GB cuenta con un procesador octa-core con una velocidad de hasta 2.8GHz y 4GB de RAM, ofrece un desempeño general sobresaliente para abrir y ejecutar aplicaciones, hojear menús, ejecutar pantallas de inicio y más. Pantalla táctil curva Super AMOLED HD de 5,8 . Clasificación IP68.">
                                             <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
                                         </form>
                                     </div>
@@ -313,10 +314,11 @@
                                             </div>
                                         </div>
                                         <form action="./detail.php" method="get">
-                                            <input type="hidden" name="img" value="./assets/l6g6.jpg">
+                                            <input type="hidden" name="img" value="https://fgerardocj-mp-commerce-php.herokuapp.com/assets/l6g6.jpg">
                                             <input type="hidden" name="title" value="LG G6">
                                             <input type="hidden" name="price" value="10000">
                                             <input type="hidden" name="unit" value="1">
+                                            <input type="hidden" name="description" value="LG G6 tiene pantalla fullvision, pantalla QHD ofrece Dolby Vision ™ para un mejor contraste con un diseño minimalista de nueva generación con doble camara principal">
                                             <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
                                         </form>
                                     </div>
@@ -375,6 +377,7 @@
                                             <input type="hidden" name="title" value="iPhone 8">
                                             <input type="hidden" name="price" value="16000">
                                             <input type="hidden" name="unit" value="1">
+                                            <input type="hidden" name="description" value="Las prestaciones de accesibilidad del iPhone 8 ayudan a las personas con discapacidad a sacarle el máximo partido. Gracias a sus funciones para usuarios con problemas de visión, audición, motricidad y aprendizaje, el dispositivo más personal del mundo está al alcance de todos.">
                                             <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
                                         </form>
                                     </div>
@@ -428,10 +431,11 @@
                                             </div>
                                         </div>
                                         <form action="./detail.php" method="get">
-                                            <input type="hidden" name="img" value="./assets/motorola-moto-g5-plus-1.jpg">
+                                            <input type="hidden" name="img" value="https://fgerardocj-mp-commerce-php.herokuapp.com/assets/motorola-moto-g5-plus-1.jpg">
                                             <input type="hidden" name="title" value="Motorola G5">
                                             <input type="hidden" name="price" value="9000">
                                             <input type="hidden" name="unit" value="1">
+                                            <input type="hidden" name="description" value="Pensado para ti El Motorola G 5G posee el novedoso sistema operativo Android 10 que incorpora respuestas inteligentes y acciones sugeridas para todas tus aplicaciones. Entre sus diversas funcionalidades encontrarás el tema oscuro, navegación por gestos y modo sin distracciones, para que completes tus tareas mientras disfrutas al máximo tu dispositivo. Fotografía profesional en tu bolsillo Descubre infinitas posibilidades para tus fotos con las 3 cámaras principales de tu equipo.">
                                             <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
                                         </form>
                                     </div>
@@ -478,10 +482,11 @@
                                             </div>
                                         </div>
                                         <form action="./detail.php" method="get">
-                                            <input type="hidden" name="img" value="./assets/motorola-moto-g4-3.jpg">
+                                            <input type="hidden" name="img" value="https://fgerardocj-mp-commerce-php.herokuapp.com/assets/motorola-moto-g4-3.jpg">
                                             <input type="hidden" name="title" value="Moto G4">
                                             <input type="hidden" name="price" value="8000">
                                             <input type="hidden" name="unit" value="1">
+                                            <input type="hidden" name="description" value="Ejecuta múltiples aplicaciones al mismo tiempo sin disminuir la velocidad. Además, cuenta con potentes capacidades gráficas compatibles con imágenes en 3D de gran viveza. La pantalla de 5,5 Full HD te da fotos nítidas y realistas, vídeos y juegos que saldrán de la pantalla. El Moto G está diseñado para durar más de un día entero gracias a su batería potente.">
                                             <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
                                         </form>
                                     </div>
@@ -529,10 +534,11 @@
                                             </div>
                                         </div>
                                         <form action="./detail.php" method="get">
-                                            <input type="hidden" name="img" value="./assets/003.jpg">
+                                            <input type="hidden" name="img" value="https://fgerardocj-mp-commerce-php.herokuapp.com/assets/003.jpg">
                                             <input type="hidden" name="title" value="Sony Xperia XZ2">
                                             <input type="hidden" name="price" value="10000">
                                             <input type="hidden" name="unit" value="1">
+                                            <input type="hidden" name="description" value="Descubre este terminal de Sony, un móvil con el que podrás sacar fotografías o vídeos en alta calidad y también verlas con su pantalla de gran formato. Este teléfono tiene una cámara trasera de altas prestaciones de 19 Mpx y con una apertura f/2.0 con una apertura f/2.0. además cuenta con cámara frontal de 5 Mpx y f/2.2 de apertura para unos selfies increíbles. En su interior tiene un microprocesador de 8 núcleos diseñado por Qualcomm, que permiten un uso correcto.">
                                             <button type="submit" class="mercadopago-button" formmethod="post">Comprar</button>
                                         </form>
                                     </div>

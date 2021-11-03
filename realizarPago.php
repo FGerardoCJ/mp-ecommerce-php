@@ -13,6 +13,7 @@ $item->id = "1234";
 $item->title = $_POST['title'];
 $item->quantity = $_POST['unit'];
 $item->unit_price = $_POST['price'];
+$item->description = $_POST['description'];
 $item->picture_url = $_POST['img'];
 $preference->items = array($item);
 
@@ -48,12 +49,15 @@ $preference->auto_return = "approved";
 // Excluir formas y tipos de pago
 $preference->payment_methods = array(
     "excluded_payment_types" => array(
-        array("id" => "amex","payment_type_id" => "atm")
+        array("id" => "atm")
+    ),
+    "excluded_payment_methods" => array(
+        array("id" => "amex")
     ),
     "installments" => 6 //Número de mensualidades
 );
 
-$preference->notification_url = "https://hookb.in/b9ZMkO0N3OtKGq00GyD7";
+$preference->notification_url = "https://hookb.in/G9XY0mrro0UE2xPP2kVN";
 $preference->statement_descriptor = "Tienda e-commerce";
 $preference->external_reference = "contacto@grupo-abx.com";
 $preference->integrator_id = "dev_24c65fb163bf11ea96500242ac130004";
